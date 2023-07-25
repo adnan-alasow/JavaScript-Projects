@@ -25,6 +25,8 @@ function enterValue(){
 function resetGame(){
   hiddenNumber = Math.floor(Math.random() * 10);
   //resultElement.innerHTML = 'Result'
+
+  console.log(hiddenNumber);
 }
 
 

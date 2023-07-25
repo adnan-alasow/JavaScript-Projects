@@ -7,7 +7,7 @@ let newGameElement = document.querySelector('.newGame')
 let resultElement = document.querySelector('.result')
 
 
-let hiddenNumber = Math.floor(Math.random() * 10)
+let hiddenNumber = Math.floor(Math.random() * 10);
 console.log(hiddenNumber);
 
 
@@ -23,7 +23,8 @@ function enterValue(){
 }
 
 function resetGame(){
-  hiddenNumber = Math.floor(Math.random() * 10)
+  hiddenNumber = Math.floor(Math.random() * 10);
+  //resultElement.innerHTML = 'Result'
 }
 
 

@@ -8,16 +8,22 @@ body{
   width: 50%;
   text-align: center;
   margin: 0 auto;
-  border-radius: 5px;
+  
 }
 
 p.result{
   border: 1px solid rgb(166, 16, 16);
   background-color: aqua;
+  padding: 10px 25px 15px 15px;
+  font-size: 32px;
+  border-radius: 10px;
   
 }
 
-div{
+.input{
+  padding: 10px 25px 15px 15px;
+  border-radius: 5px;
+  width: 72%;
   
 }
 
@@ -26,9 +32,19 @@ div{
   color: white;
   border-radius: 10;
   padding: 10px 25px 15px 15px;
-  
+  border-radius: 5px;
+  font-size: 13px;
+  text-align: center;
 }
 
-.input{
+.newGame{
   padding: 10px 25px 15px 15px;
+  border-radius: 5px;
+  font-size: 20px;
+  background-color: beige;
+}
+
+.newGame:hover{
+  background-color: rgb(167, 125, 202);
+  transition: width 1s ease, height 1s ease, background-color 0.5s linear;
 }

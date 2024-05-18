@@ -1,0 +1,32 @@
+body{
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  
+}
+h1{
+  font-size: 54px;
+  font-family: cursive;
+  padding: 0;
+  margin: 0;
+}
+
+button{
+  height: 100px;
+  width: 200px;
+  margin: 10px;
+  font-size: 20px;
+  border-radius: 107px;
+  border-color: black;
+  box-shadow: 10px 10px 5px 0px;
+  font-family: cursive;
+  cursor: pointer;
+  
+}
+
+.container{
+  width: 700px;
+}

@@ -1,0 +1,43 @@
+body {
+  background-color: aquamarine;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+  font-size: 50px;
+  font-family: cursive;
+}
+.cell {
+  background-color: white;
+  border-color: black;
+  height: 90px;
+  width: 160px;
+  border: 2px solid;
+  font-size: 28px;
+  text-align: center;
+  box-shadow: 0 0 0 2px;
+  padding-top: 50px;
+}
+
+/* .gameBox{
+  display: flex;
+  width: 500px;
+  flex-wrap: wrap;
+  
+} */
+/* second approach  */
+.gameBox {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+p {
+  font-size: 22px;
+  font-family: cursive;
+  font-weight: bold;
+}

@@ -1,0 +1,60 @@
+.exploreContainer {
+  background-image: url("../images/about-bg.jpg");
+  height: 90vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-size: cover;
+  background-position: center;
+}
+
+.exploreContainer img {
+  width: 100px;
+  height: 100px;
+}
+
+.exploreContainer > div {
+  background-color: white;
+  padding: 15px 40px 10px 40px;
+  border-radius: 15px;
+  width: 420px;
+  height: auto;
+}
+
+.exploreContainer > div img {
+  margin-bottom: 30px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.exploreContainer > div h1 {
+  color: #495e58;
+  margin-bottom: 20px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.exploreContainer > div p {
+  margin-right: 15%;
+  margin-left: 15%;
+  margin-bottom: 35px;
+}
+
+.exploreContainer > div button {
+  background-color: #0f65e0;
+  border: none;
+  color: white;
+  padding: 8px 15px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 8px;
+  font-size: large;
+  margin-bottom: 5px;
+}
+
+.exploreContainer > div button a {
+  color: white;
+}

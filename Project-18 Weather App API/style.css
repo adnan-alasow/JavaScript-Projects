@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f7f7f7;
+}
+
+.container {
+  width: 600px;
+  background-color: #ffffff;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Input Box Styling */
+.inputBox {
+  width: 100%;
+  display: flex;
+  margin: 20px 0;
+}
+.inputBox input {
+  width: 75%;
+  padding: 15px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border: 1px solid #d1d1d1;
+}
+button {
+  width: 23%;
+  border: none;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  background-color: #037bfe;
+  color: white;
+  font-size: 17px;
+}
+
+/* Weather Section Styling */
+.weatherBox {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  gap: 20px;
+}
+.weatherBox img {
+  width: 50px;
+  height: 50px;
+}
+.weatherBox h1 {
+  font-size: 50px;
+}
+
+.weatherBox p {
+  font-size: 20px;
+}
+
+/* Stats Section */
+.stats {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.stats p {
+  background-color: #f1f1f1;
+  padding: 20px 25px;
+  border-radius: 10px;
+  font-size: 18px;
+}

@@ -1,0 +1,77 @@
+body{
+  background-color: bisque;
+
+}
+
+.mainContainer {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+.title{
+  font-size: 44px;
+  font-family: cursive;
+  
+}
+
+.inputContainer{
+  display: flex;
+  flex-direction: column;
+  width: 700px;
+  padding: 15px;
+}
+
+.inputContainer input{
+  height: 25px;
+  font-size: 15px;
+  
+}
+button{
+  width: 100px;
+  background-color: goldenrod;
+  border: none;
+  border-radius: 10px;
+  height: 45px;
+  cursor: pointer;
+  
+}
+
+hr{
+  margin: 15px 0;
+  width: 60%;
+  border-top: 1px dashed red;
+}
+
+h3{
+  font-size: 32px;
+  margin: 0;
+
+}
+.notes{
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+  gap: 15px;
+  
+}
+
+li{
+  background-color: lightgoldenrodyellow;
+  padding: 10px;
+  width: 28%;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.deleteNote{
+  color: white;
+  align-self: flex-end;
+  width: 60px;
+  height: 45px;
+  background-color: red;
+}

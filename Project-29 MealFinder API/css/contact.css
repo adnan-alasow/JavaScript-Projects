@@ -1,0 +1,48 @@
+.contactContainer {
+  display: flex;
+  justify-content: center;
+}
+.mainContent {
+  margin-top: 5%;
+  background-color: white;
+  height: 460px;
+  width: 550px;
+  padding: 40px;
+  border-radius: 28px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.contactHeading {
+  text-align: center;
+  font-family: cursive;
+  margin-bottom: 35px;
+}
+
+.contactInfo {
+  display: flex;
+  gap: 15px;
+  flex-direction: column;
+}
+
+.contactInfo input {
+  height: 25px;
+  border: 0.5px solid black;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.contactInfo .message {
+  height: 100px;
+  margin-bottom: 30px;
+}
+
+button {
+  background-color: #f4ce14;
+  text-align: center;
+  border: 0.5px solid black;
+  width: 100%;
+  border-radius: 5px;
+  height: 40px;
+  font-weight: bold;
+  font-size: larger;
+}

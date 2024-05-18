@@ -1,0 +1,64 @@
+body{
+  background-color: greenyellow;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+  
+}
+
+.container{
+  box-shadow: 17px 15px 15px -13px rgba(125,125,125,0.75);
+  border: none;
+
+}
+
+
+input{
+  width: 350px;
+  height: 40px;
+  padding: 15px;
+  border: none;
+  font-family: cursive;
+  border-radius: 10px 10px 0 0;
+  font-size: 20px;
+  
+}
+
+input::placeholder{
+  color: lightgray;
+}
+
+.list{
+  background-color: yellow;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+li{
+  padding: 20px;
+  font-family: cursive;
+  border-top: dotted;
+  border-color: gray;
+  position: relative;
+}
+
+.fa-square-check{
+position: absolute;
+right: 40px;
+top: 40%;
+cursor: pointer;
+}
+
+.fa-trash-can{
+  position: absolute;
+  right: 20px;
+  top: 40%;
+  cursor: pointer;
+}
+
+.disable{
+  color: gray;
+  text-decoration: line-through;
+}

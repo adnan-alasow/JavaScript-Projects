@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+}
+
+body {
+  background-color: #f5f7f8;
+}
+
+.aboutContainer {
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.aboutImage {
+  object-fit: contain;
+  border: 0.5px black solid;
+  padding: 20px;
+  width: 30%;
+  height: 53%;
+}
+.aboutImage img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.aboutRecipeFinder {
+  width: 50%;
+  font-size: 22px;
+}
+
+.aboutRecipeFinder h1 {
+  color: #0e65e0;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.aboutRecipeFinder p {
+  font-size: 20px;
+}

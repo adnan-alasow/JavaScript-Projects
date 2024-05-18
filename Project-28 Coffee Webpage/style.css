@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Roboto:ital,wght@0,300;0,400;1,300;1,400&display=swap");
+
+* {
+  margin: 0;
+}
+
+body {
+  background-image: url(img/hero-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  max-width: 1300px;
+  height: 100vh;
+  font-family: Poppins;
+  margin: 20px auto;
+  padding: 0px 33px;
+}
+
+.topNav {
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 40px;
+  
+}
+.period {
+  color: orange;
+}
+
+.topNav a {
+  color: white;
+  text-decoration: none;
+}
+
+.topNav a:hover {
+  color: orange;
+  transition: 0.5s;
+}
+.rightNav {
+  display: flex;
+  gap: 48px;
+}
+
+.mainContainer {
+  max-width: 700px;
+  color: white;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  
+}
+
+h1 {
+  font-size: 58px;
+  margin-bottom: 20px;
+}
+
+.paragraph {
+  font-size: 18px;
+}
+
+button {
+  margin-top: 30px;
+  font-size: 22px;
+  border: none;
+  border-radius: 7px;
+  padding: 20px;
+}
+
+button:hover {
+  background-color: orange;
+  transition: 0.5s;
+}

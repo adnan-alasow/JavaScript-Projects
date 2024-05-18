@@ -1,0 +1,79 @@
+body {
+  background-color: rgb(72, 72, 72);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+
+
+.box {
+  background-color: white;
+  height: 400px;
+  width: 450px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+
+  padding: 0 10px 10px 10px;
+}
+
+.box h1{
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 2em;
+}
+
+.totalBill, .tipSlider, .tipAmount, .totalBillWithTip{
+display: flex;
+width: 100%;
+margin-bottom: 15px;
+}
+
+.totalBill span, .tipSlider span, .tipAmount span, .totalBillWithTip span{
+  background-color: lightgray;
+  padding: 7px 10px;
+  border-radius: 5px 0 0 5px;
+  
+}
+
+.totalBill input, .tipSlider input, .tipAmount input, .totalBillWithTip input{
+  flex-grow: 1;
+  border-radius: 0 5px 5px 0px;
+  border: 1px solid gray;
+  padding: 0 10px;
+}
+
+.tipSlider{
+  align-items: center;
+  
+}
+
+.tipSlider span{
+  border-radius: 0px 5px 5px 0px;
+  
+}
+.tipSlider input{
+  padding: 0;
+}
+
+hr{
+  width: 100%;
+}
+
+.results h3{
+text-align: center;
+
+}
+
+.tipAmount{
+  margin-bottom: 25px;
+  margin-top: -15px;
+}
+
+.totalBillWithTip input, .tipAmount input{
+  background-color: lightgray;
+  border: none;
+}

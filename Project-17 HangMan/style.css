@@ -1,0 +1,120 @@
+
+.gameModel{
+  background-color: rgba(0, 0, 0, 0.4);
+  position: fixed;
+  left: 0;
+  top: 0;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+}
+
+.content{
+background-color: white;
+padding: 40px;
+width: 340px;
+text-align: center;
+font-size: 22px;
+border-radius: 7px;
+
+}
+
+.content img{
+  width: 130px;
+}
+
+.gameOver{
+font-weight: bold;
+}
+
+.currentWord{
+  color: #8286C9;
+}
+
+.content button{
+  background-color: #5e63ba;
+  padding: 15px 20px ;
+  border-radius: 4px;
+  color: white;
+  font-weight: bold;
+}
+.content button:hover{
+  background-color: #8286C9;
+}
+
+
+body {
+  background-color: #5e63ba;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  background-color: white;
+  width: 900px;
+  display: flex;
+  padding: 30px;
+  gap: 35px;
+  
+}
+
+/* HangMan Setion Styles */
+.hangmanSection {
+  width: 35%;
+  font-size: 10px;
+}
+.hangmanSection img {
+  width: 100%;
+  padding-top: 20px;
+}
+
+/* Game Section Styles */
+
+.gameSection {
+  background-color: white;
+  width: 65%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.gameBox {
+  display: flex;
+  list-style: none;
+  gap: 10px;
+  text-align: center;
+}
+
+.gameBox li {
+  width: 30px;
+  border-bottom: 2px solid black;
+}
+
+.hintText{
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.incorrectGuesses {
+  color: red;
+}
+
+.keyboard {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 5px;
+}
+.keyboard button {
+  background-color: #5e63ba;
+  color: white;
+  border-radius: 3px;
+  height: 35px;
+  width: calc(100%/9 - 5px) 
+}

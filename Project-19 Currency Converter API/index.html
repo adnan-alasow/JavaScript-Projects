@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Currency Converter</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="box">
+      <h1>Currency Converter</h1>
+
+      <div class="currencyContainer">
+        <select id="currencyFirst">
+          <option value="USD">USD</option>
+          <option value="JPY">JPY</option>
+          <option value="INR">INR</option>
+          <option value="GBP">GBP</option>
+          <option value="EUR">EUR</option>
+          <option value="CAD">CAD</option>
+          <option value="AUD">AUD</option>
+        </select>
+
+        <input class="inputOne" type="number" value="1" />
+      </div>
+
+      <div class="currencyContainer">
+        <select id="currencySecond">
+          <option value="USD">USD</option>
+          <option value="JPY">JPY</option>
+          <option value="INR">INR</option>
+          <option value="GBP">GBP</option>
+          <option value="EUR">EUR</option>
+          <option value="CAD">CAD</option>
+          <option value="AUD">AUD</option>
+        </select>
+
+        <input class="inputTwo" type="number" value="1" disabled />
+      </div>
+
+      <p class="exchageRate"></p>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

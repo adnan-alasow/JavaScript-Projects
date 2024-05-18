@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.nav {
+  background-color: #f4ce14;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 5%;
+  padding-right: 5%;
+  border-bottom: 0.9mm solid #949494;
+  height: 13vh;
+}
+
+.nav img {
+  object-fit: cover;
+  width: 70px;
+}
+
+.nav .links {
+  font-size: 18px;
+  display: flex;
+  gap: 15px;
+}
+
+.recipeContainer {
+  min-height: 85vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  padding-top: 80px;
+}
+
+.box {
+  width: 70%;
+  display: flex;
+  justify-content: center;
+}
+
+.inputInfo {
+  border-radius: 15px;
+  border: solid 1.5px gray;
+  margin-bottom: 20px;
+  padding: 17px;
+  width: 95%;
+}
+
+.foodContainer {
+  border: solid 0.5px;
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 70%;
+}
+
+.foodContainer .search {
+  background-color: #f4ce14;
+  padding: 20px;
+  margin-top: 15px;
+  color: #495e57;
+  width: 40%;
+  font-family: cursive;
+  font-weight: bold;
+  font-size: 40px;
+  padding: 20px 40px;
+}
+
+.recipeBackground {
+  margin-top: 8px;
+  border-top: 20px solid #f4ce14;
+  border-bottom: 20px solid #f4ce14;
+  min-width: 30%;
+  padding: 10px 0px;
+  display: flex;
+  justify-content: space-between;
+  color: #495e57;
+}
+
+.Ingredients {
+  text-align: left;
+  margin-top: 20px;
+}
+
+.Ingredients ul {
+  column-count: 2;
+  column-gap: 25px;
+  text-align: left;
+}
+.Ingredients li {
+  line-height: 2.5;
+}
+.Ingredients > h1 {
+  color: #495e57;
+  margin-bottom: 15px;
+}
+
+.Instructions {
+  color: #495e57;
+}
+
+.Instructions > h1 {
+  text-align: left;
+  line-height: 1.5;
+}
+
+.Instructions > p {
+  line-height: 1.5;
+}

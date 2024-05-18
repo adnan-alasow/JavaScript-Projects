@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HangMan Game</title>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="gameModel">
+      <div class="content">
+        <img src="img/lost.gif" />
+        <p class="gameOver">Game Over!</p>
+        <p>The correct word was: <span class="displayWord">vibrant</span></p>
+        <button class="playAgain">PLAY AGAIN</button>
+      </div>
+    </div>
+    <div class="container">
+      <!-- Left Section: HangMan -->
+      <div class="hangmanSection">
+        <img class="img" src="/Project-17 HangMan/img/hangman-0.svg" alt="" />
+        <h1>HANGMAN GAME</h1>
+      </div>
+
+      <!-- Right Section: Game Box -->
+      <div class="gameSection">
+        <!-- Guesses List -->
+        <ul class="gameBox"></ul>
+        <!-- hint text area -->
+        <p class="hintText">
+          Hint: A rhythmic movement of the body often performed to music.
+        </p>
+
+        <p>Incorrect guesses: <span class="incorrectGuesses"> 0 / 6</span></p>
+
+        <!-- keyboard section -->
+
+        <div class="keyboard">
+          <button>A</button>
+          <button>B</button>
+          <button>C</button>
+          <button>D</button>
+          <button>E</button>
+          <button>F</button>
+          <button>G</button>
+          <button>H</button>
+          <button>I</button>
+          <button>J</button>
+          <button>K</button>
+          <button>L</button>
+          <button>M</button>
+          <button>N</button>
+          <button>O</button>
+          <button>P</button>
+          <button>Q</button>
+          <button>R</button>
+          <button>S</button>
+          <button>T</button>
+          <button>U</button>
+          <button>V</button>
+          <button>W</button>
+          <button>X</button>
+          <button>Y</button>
+          <button>Z</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

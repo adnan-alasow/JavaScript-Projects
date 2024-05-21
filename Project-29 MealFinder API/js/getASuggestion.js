@@ -48,3 +48,5 @@ async function fetchRecipe() {
 }
 
 suggestionBtn.addEventListener("click", fetchRecipe);
+
+fetchRecipe();

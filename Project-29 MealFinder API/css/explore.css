@@ -6,6 +6,8 @@
   align-items: center;
   background-size: cover;
   background-position: center;
+  gap: 45px;
+  padding: 0 40px;
 }
 
 .exploreContainer img {
